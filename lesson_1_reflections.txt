@@ -1,0 +1,51 @@
+Lesson 1
+
+Reflections
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+File comparison helped to narrow down exactly the lines in both files which differed.
+Finding the typo though was more or less guesswork.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+If a bug in a program occurrs but is not known in which version the bug appeared first,
+access to the entire history would help by testing each version back to the one version
+where the bug does not occur.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Cons: Manual choice not secure against data loss
+Pros: Logical separation can be carried out; each manual choice will secure complete
+set of changes (rational behaviour of the user assumed)
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because for programming it is essential to stay consistent across all other files
+involved in a project.
+
+How can you use the commands git log and git diff to view the history of files?
+
+To inspect a repository (say "Rep") we can use the git bash and change directory to "Rep"
+by "cd Rep"; the command "git log" will give a list of commits (ordered from newer to older)
+including name of the commit, date, author and commitID; scroll down with arrow keys to see
+all of the log entries (all commits)!!!; to stop viewing git log output, press q.
+To find out the changes made for a specific commit one can use "git diff" followed by the specific
+commitID and the commitID of the commit before. To get colored diff output,
+run git config --global color.ui auto
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+You feel safe with a version controle system to find out a bug easier than without.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to try to debug a Python scripting project (including several scripts) with GIT.
