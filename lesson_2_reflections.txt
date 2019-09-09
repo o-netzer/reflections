@@ -13,10 +13,19 @@ but not from a simple directory.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+---?
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+1) Experimental changes; 2) Different versions
+while still keeping the master branch up and alive.
+
 How do the diagrams help you visualize the branch structure?
+
+A diagram helps the user to get an overwview on the the structure of development of a project.
+Be visualizing different branches of the master, one can more easily decide where to commit, to create a branch
+or to checkout depending on the goals.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
