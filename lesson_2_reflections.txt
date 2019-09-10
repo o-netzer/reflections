@@ -30,5 +30,10 @@ or to checkout depending on the goals.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging 2 branches together is one (master) branch containing all commits of the 2 singular merged
+branches, the commits are ordered by timestamps of the commits from both branches. The branch merged to the master
+can be deleted if desired. Each of its commits is still reachable since it is contained in the master branch.
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
