@@ -21,7 +21,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    In case one wants to collaborate with others on a common project it is necessary to be informed
+    on the last status of the project so that you can locally integrate the work of others.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
