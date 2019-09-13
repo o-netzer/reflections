@@ -37,3 +37,5 @@ can be deleted if desired. Each of its commits is still reachable since it is co
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging is a huge AI task, manually deciding merging conflicts is still less costly.
