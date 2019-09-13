@@ -27,7 +27,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would store each production version of a project in some place in the cloud with access for each
+    colleague. That way it would be harder to track all the different changes made by colaborators and it
+    might easily get messy.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
